@@ -6,6 +6,6 @@ this programm accidently coz I've added little security feature that asks you if
 want to open this program :-).
 _______________________________________________________________________________________
 DISCLAIMER: All of the programs on my github profile are written for educational purposes only!
-I'm not responsible for ane damage caused by these programs! Don't use it or modify it
+I'm not responsible for any damage caused by these programs! Don't use it or modify it
 to use it as a malware
 _____________________________________________________________________________________________
